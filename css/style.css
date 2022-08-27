@@ -1,0 +1,107 @@
+*{
+   padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.header-1{
+    background-color: black;
+    height: 100px;
+    width: 1280px;
+    color: brown;
+    list-style-type: none;
+}
+.li-01{
+    color: cadetblue;
+}
+.nu-01{
+
+list-style: none;
+height: 100px;
+width: 400px;
+font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'DynaPuff', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Rubik Distressed', cursive;
+font-family: 'Secular One', sans-serif;
+justify-content: space-evenly;
+display: flex;
+align-items: center;
+
+}
+.nu-01 :hover{
+    color: aliceblue;
+    transform: scale(1.1);
+    justify-content: space-around;
+}
+.lu-01 :hover{
+    color: rgb(189, 21, 43);
+    
+    padding: 5px;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'DynaPuff', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Rubik Distressed', cursive;
+font-family: 'Secular One', sans-serif;
+background-color: rgb(24, 142, 211);
+}
+.mm-01 {
+    color: brown;
+    display: inline-block;
+    
+    }
+ul li a.a-01{
+    color: rgb(208, 233, 68);
+}
+body iframe .header-1{
+    
+    display: flex;
+    align-content: center;
+}
+
+main div nav a{
+    padding-left: 10px;
+    display: inline-flex;
+    padding-bottom: 10px;    
+    padding-top: 10px;
+    padding-right: 10px;
+    border: 10px;
+    border: solid brown;
+    
+
+    }
+.main-01{
+        display: flex;
+               
+    }
+.lu-01{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+padding: 10px;
+   
+}
+header div ul li{
+    
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+
+    
+    
+   
+
+} 
+.main-01 :hover{       
+        background-color: blue;
+        transform: scale(1.1);
+        justify-items: auto;
+        
+}
+
+    
+    
+   
+
+
+

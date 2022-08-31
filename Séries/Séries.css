@@ -2,6 +2,7 @@
     padding: 0;
      margin: 0;
      box-sizing: 0;
+    background-color: black;
  }
  .header-1{
      background-color: black;
@@ -56,23 +57,7 @@
      
      display: flex;
      align-content: center;
- }
- 
- main div nav a{
-     padding-left: 10px;
-     display: inline-flex;
-     padding-bottom: 10px;    
-     padding-top: 10px;
-     padding-right: 10px;
-     border: 10px;
-     border: solid brown;
-     
- 
-     }
- .main-01{
-         display: flex;
-                
-     }
+ }  
  .lu-01{
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
  padding: 10px;
@@ -97,6 +82,10 @@
          transform: scale(1.1);
          justify-items: auto;
          
+ }
+ .main-01{
+    display: flex;
+    gap: 15px;
  }
 
     

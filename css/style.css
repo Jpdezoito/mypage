@@ -2,6 +2,7 @@
    padding: 0;
     margin: 0;
     box-sizing: 0;
+    background-color: black;
 }
 .header-1{
     background-color: black;
@@ -9,6 +10,7 @@
     width: 1280px;
     color: brown;
     list-style-type: none;
+
 }
 .li-01{
     color: cadetblue;
@@ -58,19 +60,8 @@ body iframe .header-1{
     align-content: center;
 }
 
-main div nav a{
-    padding-left: 10px;
-    display: inline-flex;
-    padding-bottom: 10px;    
-    padding-top: 10px;
-    padding-right: 10px;
-    border: 10px;
-    border: solid brown;
-    
 
-    }
-.main-01{
-        display: flex;
+.main-01{        
                
     }
 .lu-01{
@@ -80,28 +71,45 @@ padding: 10px;
 }
 header div ul li{
     
-    display: inline-block;
+    display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
     align-content: center;
-
-    
-    
-   
-
-} 
-.main-01 :hover{       
-        background-color: blue;
-        transform: scale(1.1);
-        justify-items: auto;
-        
-}
+}  
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: gold;
     background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+.main-01 section div nav img{        
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;        
+    text-align: center;
+    margin: 10px 10px;
+    align-content: center;
+}
+.Série{
+    display: flex;
+}
+.img1 {
+    border-radius: 10px;
+width: 300px;
+height: 300px;
+}
+.img1 :hover{
+    display: flex;
+    height: 400px;
+}
+
+@media (max-width: 768px){
+   .header-1{
+        flex-wrap: wrap;
+    }
 }
     
     

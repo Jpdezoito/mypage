@@ -109,6 +109,13 @@ border: solid maroon;
     
     border: solid gold;
 }
+a:link{
+    text-decoration: none;
+    color: gold;
+}
+a:visited{
+    color: red;
+}
 
 @media (max-width: 768px){
    *{

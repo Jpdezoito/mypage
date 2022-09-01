@@ -106,7 +106,7 @@ border: solid maroon;
 }
 .img1:hover{
     display: flex;
-    height: 400px;
+    
     border: solid gold;
 }
 

@@ -116,7 +116,24 @@ a:link{
 a:visited{
     color: red;
 }
-
+.img-1{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;    
+}
+.img-1:hover{
+    background-color: rgb(99, 99, 99);
+    height: 210px;
+    width: 210px;
+}
+.sinal-1{
+    display: flex;
+    justify-content: space-around;
+    display: inline;
+   
+    
+}
 @media (max-width: 768px){
    *{
         flex-wrap: wrap;
